@@ -29,7 +29,7 @@ angular.module('myApp', ['vModal'])
 })
 
 .controller('MyModalController', function (myModal) {
-  this.close = myModal.deactivate();
+  this.close = myModal.desactivate();
 })
 
 .controller('AppController', function (myModal) {
